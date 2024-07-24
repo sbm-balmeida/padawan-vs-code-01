@@ -1,7 +1,7 @@
 
 idades = [30, 35, 28]
 nomes = ["Ana", "Juliana", "Leonardo"]
-faculdade = {false,true,false}
+faculdade = [false,true,false]
 
 funcionarios = [nomes,idades,faculdade]
 
