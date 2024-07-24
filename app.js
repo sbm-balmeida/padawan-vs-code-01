@@ -38,7 +38,6 @@ teste()
 
 function teste() {
     return 10
-    console.log("retornou")
 }
 
 let TextoDeQuebraDeLinha = "Oi, tudo bem? Eu sou o Leonardo, esse texto é longo mesmo para podermos testar a quebra de linha"
@@ -47,4 +46,9 @@ array = []
 array.push(1)
 console.log(array)
 
-let texto = ["oi", "ok"]
+let palavrasSimples = ["oi", "ok"]
+
+for (let i = 0; i < palavrasSimples.length; i++) {
+    const element = palavrasSimples[i];
+    
+}
