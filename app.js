@@ -15,34 +15,40 @@
 // console.log(filtrado)
 
 
-const notas1 =    [10, 6.5   , 8, 7.5]
-const notas2 =   [9, 6, 6 ]
-const notas3 = [8.5,    9.5]
+const notas1 = [10, 6.5, 8, 7.5]
+const notas2 = [9, 6, 6]
+const notas3 = [8.5, 9.5]
 
 
-    const notasGerais = [notas1, notas2, notas3]
-    
-  let media = 0
-  
-for (let i = 0; i < notasGerais.length;i++) {
-      for(let j = 0; j < notasGerais[i].length; j++) {
-    media += notasGerais[i][j] / notasGerais[i].length
+const notasGerais = [notas1, notas2, notas3]
+
+let media = 0
+
+for (let i = 0; i < notasGerais.length; i++) {
+    for (let j = 0; j < notasGerais[i].length; j++) {
+        media += notasGerais[i][j] / notasGerais[i].length
     }
 }
 
 media = media / notasGerais.length
 
-console.log(   media      )
+console.log(media)
 
-function teste(   ) {
-  return    10
-  console.log(   "retornou")
+teste()
+
+function teste() {
+    return 10
 }
 
 let TextoDeQuebraDeLinha = "Oi, tudo bem? Eu sou o Leonardo, esse texto é longo mesmo para podermos testar a quebra de linha"
 
-array = [ ]
-array.push(1 )
+array = []
+array.push(1)
 console.log(array)
 
-let texto = ["oi","ok"]
+let palavrasSimples = ["oi", "ok"]
+
+for (let i = 0; i < palavrasSimples.length; i++) {
+    const element = palavrasSimples[i];
+    
+}
